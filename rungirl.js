@@ -2,7 +2,7 @@ class Rungirl {
     constructor(game) {
         this.game = game;
         this.animator = new Animator(ASSET_MANAGER.getAsset("./sprites/run.png"),
-            0, 0, 60.2, 60.2, 8, 0.08);
+            0, 0, 60.15, 60.15, 8, 0.08);
         this.x = 0;
         this.y = 270;
         this.speed = 300;
